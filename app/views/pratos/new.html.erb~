@@ -1,0 +1,12 @@
+<h1>Adicionando Pratos</h1>
+
+
+
+
+
+<%= form_for @pratos, :url {:action => "create"} do |f| b%>
+Nome: <%= f.field_text :nome %>
+<%= submit_tag "Criar" %>
+<% end %>
+
+<%= link_to "Voltar", :action => "index" %>

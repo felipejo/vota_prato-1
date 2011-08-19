@@ -1,0 +1,18 @@
+<%= render :partial => "titulo" %>
+
+<% if @prato.errors.any? %>
+<ul>
+  <% @prato.errors.full_messages.each do |msg| %>
+  <li><%= msg %></li>
+  <% end %>
+</ul>
+<% end %>
+
+<%= form_for @prato, :url => {:action => "create"} do |f| %>
+Nome: <%= f.text_field :nome %>
+<br />
+
+<%= submit_tag "Criar" %>
+<% end %>
+
+<%= link_to "Voltar", :action => "index" %>
