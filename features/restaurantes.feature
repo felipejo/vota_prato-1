@@ -1,0 +1,14 @@
+#language: pt
+
+Funcionalidade: cadastrar restaurantes
+		Para cadastrar um restaurante
+		Eu tenho que dominar o mundo
+		
+		Cenario: Registrar restaurante
+			 Dado que eu quero cadastrar um restaurante
+			 E eu estou na pagina de restaurante
+			 E eu preencho o campo "restaurante[nome]" com "Ola"
+			 E eu preencho o campo "restaurante[endereco]" com "Tchau"
+			 E eu preencho o campo "restaurante[especialidade]" com "Fui"
+			 E eu aperto o botao "Criar"
+			 Entao eu deveria ver o restaurante cadastrado

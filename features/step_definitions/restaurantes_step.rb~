@@ -1,0 +1,19 @@
+Dado /^que eu quero cadastrar um restaurante$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Dado /^eu estou na pagina de restaurante$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Dado /^eu preencho o campo "([^"]*)" com "([^"]*)"$/ do |arg1, arg2|
+  pending # express the regexp above with the code you wish you had
+end
+
+Dado /^eu aperto o botao "([^"]*)"$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Entao /^eu deveria ver o restaurante cadastrado$/ do
+  pending # express the regexp above with the code you wish you had
+end
